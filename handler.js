@@ -1507,7 +1507,7 @@ export async function callUpdate(callUpdate) {
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
         const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;🌌 StivenBotMD 🌌;;;\nFN:🌌 StivenBotMD 🌌\nORG:🌌 StivenBotMD 🌌\nTITLE:\nitem1.TEL;waid=573148624888:+57 314 8624888\nitem1.X-ABLabel:🌌 StivenBotMD 🌌\nX-WA-BIZ-DESCRIPTION:Solo contacta a este numero para cosas importantes.\nX-WA-BIZ-NAME:🌌 StivenBotMD 🌌\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝘚𝘢𝘬𝘶𝘳𝘪𝘵𝘴𝘉𝘰𝘵 ✨', contacts: [{vcard}]}}, {quoted: callmsg});
+        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '🌌 StivenBotMD 🌌', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
@@ -1552,11 +1552,11 @@ global.dfail = (type, m, conn) => {
     private: '*♨️ ESTE COMANDO SOLO PUEDE SER EJECUTADO EN GRUPOW.*',
     admin: '*♨️ 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘚𝘰𝘭𝘰 𝘌𝘴 𝘗𝘢𝘳𝘢 𝘈𝘥𝘮𝘪𝘯𝘴 𝘋𝘦𝘭 𝘎𝘳𝘶𝘱𝘰.*',
     botAdmin: '*♨️ 𝘗𝘢𝘳𝘢 𝘗𝘰𝘥𝘦𝘳 𝘜𝘴𝘢𝘳 𝘌𝘴𝘵𝘦 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘌𝘴 𝘕𝘦𝘤𝘦𝘴𝘢𝘳𝘪𝘰 𝘘𝘶𝘦 𝘠𝘰 𝘚𝘦𝘢 𝘈𝘥𝘮𝘪𝘯.*',
-    unreg: '*⚠️ ¡𝐏𝐚𝐫𝐚 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐂𝐨𝐧 𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢𝐨𝐧 𝐄𝐬 𝐍𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐬𝐞!*\n\n!reg nombre.edad\n\n*Uso correcto* : #reg Diego.20',
+    unreg: '*⚠️ ESTE COMANDO SOLO FUNCIONA SI ESTA REGISTRADO/A.*\n\n*Para registrarse, use el comando: .reg nombre.edad*\n\nPor ejemplo\n.reg Stiven.19',
     restrict: '*♨️ 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘙𝘦𝘴𝘵𝘳𝘪𝘯𝘨𝘪𝘥𝘰 𝘗𝘰𝘳 𝘋𝘦𝘴𝘪𝘤𝘪𝘰́𝘯 𝘋𝘦𝘭 𝘗𝘳𝘰𝘱𝘪𝘦𝘵𝘢𝘳𝘪𝘰 𝘋𝘦𝘭 𝘉𝘰𝘵.*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '🌹 𝙎𝙩𝙞𝙫𝙚𝙣𝘽𝙤𝙩-𝙈𝘿 🌹', body: '⚠️ 𝐴𝑉𝐼𝑆𝑂𝑆 - 𝐵𝑂𝑇𝑊𝐴𝑅𝑁 ⚠️', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '🌹 𝙎𝙩𝙞𝙫𝙚𝙣𝘽𝙤𝙩-𝙈𝘿 🌹', body: '⚠️ 𝐴𝑉𝐼𝑆𝑂𝑆 - 𝐵𝑂𝑇𝑊𝐴𝑅𝑁 ⚠️', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/GtUSgN0j6ctJfLIUfCwGgL'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
