@@ -53,6 +53,11 @@ npm update
 npm start
 ```
 -----
+### `Actualizar StivenBot-MD`
+```bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Tecnocris08/StivenBot-MD/master/update.sh | bash
+```
+
 - [x] ♻️ Instalación Automática ♻️ <details><summary>Haga Clik Aqui</summary><[🍀 G-BOT-WA 🍀](https://wa.link/j2srq5)></details>
 -----
 
