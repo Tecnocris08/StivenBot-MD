@@ -11,6 +11,12 @@
 <a href="https://api.whatsapp.com/send/?phone=573148624888&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/𝙎𝙤𝙥𝙤𝙧𝙩𝙚_𝘽𝙤𝙩𝙨-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 -----
-- [x] 🍁 Instalar en Koyeb 🍁 <details><summary>Haga Clik Aqui</summary><[![🌌 Koyeb Bot 🌌](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/tecnocris08/StivenBot-MD&branch=master&name=StivenBot-MD)></details>
+- [x] 🍁 Instalar en Koyeb 🍁 <details><summary>Haga Clik Aqui</summary><[![Koyeb Bot](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/tecnocris08/StivenBot-MD&branch=master&name=StivenBot-MD)></details>
+
+
+- [x] ♨️ Instalar en Render ♨️ <details><summary>Haga Clik Aqui</summary><[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2tecnocris08%2FStivenBot-MD)></details>
+
+
+- [x] ⚜️ Instalar en Replit ⚜️ <details><summary>Haga Clik Aqui</summary><[![Run Repl.it](https://repl.it/badge/github/tecnocris08/StivenBot-MD)](https://replit/github/tecnocris08/StivenBot-MD)></details>
 -----
 
