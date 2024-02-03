@@ -1,4 +1,4 @@
-## `🌌 𝙎𝙩𝙞𝙫𝙚𝙣𝘽𝙤𝙩-𝙈𝘿 🌌` 
+### `🌌 𝙎𝙩𝙞𝙫𝙚𝙣𝘽𝙤𝙩-𝙈𝘿 🌌` 
 <p align="center">
 <img src="https://i.postimg.cc/RFMgMHV9/b554f657cecdb9add03af656908d9fab.jpg" alt="StivenBot-MD" width="900"/>
 </p>
@@ -53,7 +53,7 @@ npm update
 npm start
 ```
 -----
-- [x] ♻️ Instalación Automática ♻️ <details><summary>Haga Clik Aqui</summary><[![Koyeb Bot](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/tecnocris08/StivenBot-MD&branch=master&name=StivenBot-MD)></details>
+- [x] ♻️ Instalación Automática ♻️ <details><summary>Haga Clik Aqui</summary><[🍀 G-BOT-WA 🍀](https://wa.link/j2srq5)></details>
 -----
 
 ### 👑 PROPIETARIO DEL BOT 👑 
