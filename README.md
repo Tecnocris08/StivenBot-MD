@@ -22,5 +22,5 @@
 
 ### 👑 PROPIETARIO DEL BOT 👑 
 [![tecnocris08](https://github.com/tecnocris08.png?size=300)](https://github.com/tecnocris08) 
-> Copyright (c) 2024 **[Contactar](https://wa.me/573148624888)**.
+> ¿Dudas o preguntas? **[Contactar](https://wa.me/573148624888)**.
 >
