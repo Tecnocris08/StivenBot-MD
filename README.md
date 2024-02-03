@@ -20,3 +20,7 @@
 - [x] ⚜️ Instalar en Replit ⚜️ <details><summary>Haga Clik Aqui</summary><[![Run Repl.it](https://repl.it/badge/github/tecnocris08/StivenBot-MD)](https://replit/github/tecnocris08/StivenBot-MD)></details>
 -----
 
+### 👑 PROPIETARIO DEL BOT 👑 
+[![tecnocris08](https://github.com/tecnocris08.png?size=300)](https://github.com/tecnocris08) 
+> Copyright (c) 2024 **[Contactar](https://wa.me/573148624888)**.
+>
