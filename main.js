@@ -268,7 +268,7 @@ async function connectionUpdate(update) {
   }
  if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─•  ✯  •─━─━━─━━─━╮\n│✅ 𝙎𝙩𝙞𝙫𝙚𝙣 𝘽𝙤𝙩 𝘾𝙤𝙣𝙚𝙘𝙩𝙖𝙙𝙤 ✅.\n╰━─━━━─━━─━─• ✯ •─━─━━─━━━─━╯\n'))
-conn.fakeReply('573013114854@s.whatsapp.net', '🎒 Hola usuario soy StivenBot\nRecientemente Me E Conectado Como Un Nuevo Bot', '0@s.whatsapp.net', '✅ BOTS OFICIALES ✅', '0@s.whatsapp.net')
+conn.fakeReply('573148624888@s.whatsapp.net', '🎒 Hola usuario soy StivenBot\nRecientemente Me he Conectado Como Un Nuevo Bot', '0@s.whatsapp.net', '🌌 Stiven God 🌌', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
