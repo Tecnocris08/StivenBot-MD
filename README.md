@@ -19,6 +19,42 @@
 
 - [x] ⚜️ Instalar en Replit ⚜️ <details><summary>Haga Clik Aqui</summary><[![Run Repl.it](https://repl.it/badge/github/tecnocris08/StivenBot-MD)](https://replit/github/tecnocris08/StivenBot-MD)></details>
 -----
+### `✅ Instalar en Termux ✅` 
+- ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+```bash
+cd && termux-setup-storage
+```
+
+```bash
+apt-get update -y && apt-get upgrade -y
+```
+
+```bash
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+```
+
+```bash
+git clone https://github.com/tecnocris08/StivenBot-MD.git && cd StivenBot-MD
+```
+
+```bash
+yarn install
+```
+
+```bash
+npm install
+```
+
+```bash
+npm update
+```
+
+```bash
+npm start
+```
+-----
+- [x] ♻️ Instalación Automática ♻️ <details><summary>Haga Clik Aqui</summary><[![Koyeb Bot](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/tecnocris08/StivenBot-MD&branch=master&name=StivenBot-MD)></details>
+-----
 
 ### 👑 PROPIETARIO DEL BOT 👑 
 [![tecnocris08](https://github.com/tecnocris08.png?size=300)](https://github.com/tecnocris08) 
