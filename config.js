@@ -6,7 +6,6 @@ import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
-import { es } from "./lib/idiomas/total-idiomas.js"
 
 
 global.botnumber = ""
@@ -17,8 +16,6 @@ global.owner = [
 
 global.suittag = ['573148624888'];
 global.prems = ['5493873687620'];
-
-global.lenguajeSK = es //idioma de sakurabot
 
 global.packname = '🌌 𝙎𝙩𝙞𝙫𝙚𝙣𝘽𝙤𝙩-𝙈𝘿 🌌';
 global.author = '𝘚𝘵𝘪𝘷𝘦𝘯-𝘎𝘰𝘥';
