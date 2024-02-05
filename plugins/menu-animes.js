@@ -18,56 +18,52 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐒𝐚𝐤𝐮𝐫𝐚 𝐁𝐨𝐭 - 𝐌𝐃* —◉
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
-╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
+    const str = `*╔═══❖•ೋ°ৡৢ͜͡  🎊 𖥨֗°ೋ•❖═══╗*
+*║        ঔৣ͜͡ீ͜❥͜𝐒𝐓𝐈𝐕𝐄𝐍 𝐁𝐎𝐓 𝐌𝐃ू ፝͜❥*
+*╚═══❖•ೋ°ৡৢ͜͡  🎊 𖥨֗°ೋ•❖═══╝*
 
-┏─━─━─━∞◆∞━─━─━─┓
-┃ *< MENU-ANIME />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ⁖⃟ ➟ 🧿 _.lolivid_
-┣ ⁖⃟ ➟ 🧿 _.loli_
-┣ ⁖⃟ ➟ 🧿 _.ppcouple_
-┣ ⁖⃟ ➟ 🧿 _.neko_
-┣ ⁖⃟ ➟ 🧿 _.waifu_
-┣ ⁖⃟ ➟ 🧿 _.akira_
-┣ ⁖⃟ ➟ 🧿 _.akiyama_
-┣ ⁖⃟ ➟ 🧿 _.anna_
-┣ ⁖⃟ ➟ 🧿 _.asuna_
-┣ ⁖⃟ ➟ 🧿 _.ayuzawa_
-┣ ⁖⃟ ➟ 🧿 _.boruto_
-┣ ⁖⃟ ➟ 🧿 _.chiho_
-┣ ⁖⃟ ➟ 🧿 _.chitoge_
-┣ ⁖⃟ ➟ 🧿 _.deidara_
-┣ ⁖⃟ ➟ 🧿 _.erza_
-┣ ⁖⃟ ➟ 🧿 _.elaina_
-┣ ⁖⃟ ➟ 🧿 _.eba_
-┣ ⁖⃟ ➟ 🧿 _.emilia_
-┣ ⁖⃟ ➟ 🧿 _.hestia_
-┣ ⁖⃟ ➟ 🧿 _.hinata_
-┣ ⁖⃟ ➟ 🧿 _.inori_
-┣ ⁖⃟ ➟ 🧿 _.isuzu_
-┣ ⁖⃟ ➟ 🧿 _.itachi_
-┣ ⁖⃟ ➟ 🧿 _.itori_
-┣ ⁖⃟ ➟ 🧿 _.kaga_
-┣ ⁖⃟ ➟ 🧿 _.kagura_
-┣ ⁖⃟ ➟ 🧿 _.kaori_
-┣ ⁖⃟ ➟ 🧿 _.keneki_
-┣ ⁖⃟ ➟ 🧿 _.kotori_
-┣ ⁖⃟ ➟ 🧿 _.kurumi_
-┣ ⁖⃟ ➟ 🧿 _.madara_
-┣ ⁖⃟ ➟ 🧿 _.mikasa_
-┣ ⁖⃟ ➟ 🧿 _.miku_
-┣ ⁖⃟ ➟ 🧿 _.minato_
-┣ ⁖⃟ ➟ 🧿 _.naruto_
-┣ ⁖⃟ ➟ 🧿 _.nezuko_
-┣ ⁖⃟ ➟ 🧿 _.sagiri_
-┣ ⁖⃟ ➟ 🧿 _.sasuke_
-┣ ⁖⃟ ➟ 🧿 _.sakura_
-┣ ⁖⃟ ➟ 🧿 _.cosplay_
-┗─━─━─━∞◆∞━─━─━─┛`.trim();
+╭─╼━━══━━━≺⛩️≻━━━══━━╾─╮
+┣╮✦➤ _.lolivid_
+┃┊✦➤ _.loli_
+┃┊✦➤ _.ppcouple_
+┃┊✦➤ _.neko_
+┃┊✦➤ _.waifu_
+┃┊✦➤ _.akira_
+┃┊✦➤ _.akiyama_
+┃┊✦➤ _.anna_
+┃┊✦➤ _.asuna_
+┃┊✦➤ _.ayuzawa_
+┃┊✦➤ _.boruto_
+┃┊✦➤ _.chiho_
+┃┊✦➤ _.chitoge_
+┃┊✦➤ _.deidara_
+┃┊✦➤ _.erza_
+┃┊✦➤ _.elaina_
+┃┊✦➤ _.eba_
+┃┊✦➤ _.emilia_
+┃┊✦➤ _.hestia_
+┃┊✦➤ _.hinata_
+┃┊✦➤ _.inori_
+┃┊✦➤ _.isuzu_
+┃┊✦➤ _.itachi_
+┃┊✦➤ _.itori_
+┃┊✦➤ _.kaga_
+┃┊✦➤ _.kagura_
+┃┊✦➤ _.kaori_
+┃┊✦➤ _.keneki_
+┃┊✦➤ _.kotori_
+┃┊✦➤ _.kurumi_
+┃┊✦➤ _.madara_
+┃┊✦➤ _.mikasa_
+┃┊✦➤ _.miku_
+┃┊✦➤ _.minato_
+┃┊✦➤ _.naruto_
+┃┊✦➤ _.nezuko_
+┃┊✦➤ _.sagiri_
+┃┊✦➤ _.sasuke_
+┃┊✦➤ _.sakura_
+┣╯✦➤ _.cosplay_
+╰─╼━━══━━━≺🌐≻━━━══━━╾─╯`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
@@ -81,7 +77,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m);
   }
 };
-handler.command = /^(animes|menuanimes)$/i;
+handler.command = /^(animes|menuanime|menuanimes)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
