@@ -19,48 +19,45 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘✯✯✯✯✯✯✯✯✯〙═══╮
-║ *ᰔᩚ 𝗛ola, 𝗦eñore 𝗖omo 𝗘stas ☁︎*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║ *☁︎ 𝐀qui 𝐓e 𝐃ejo 𝐄l 𝐌enu +18 ᰔᩚ*
-╰═══╡✯✯✯✯✯✯✯✯✯╞════╯
+    const str = `*╔═══❖•ೋ°ৡৢ͜͡  🔞 𖥨֗°ೋ•❖═══╗*
+*║        ঔৣ͜͡ீ͜❥͜𝐒𝐓𝐈𝐕𝐄𝐍 𝐁𝐎𝐓 𝐌𝐃ू ፝͜❥*
+*╚═══❖•ೋ°ৡৢ͜͡  🔞 𖥨֗°ೋ•❖═══╝*
 
-╭═════❮❦MENU +18❦❯═════❯
-║┯━━━━━▧▣▧━━━━━┯
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.pack_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.pack2_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.pack3_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.videoxxx_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.videolesbixxx_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.tetas_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.booty_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.ecchi_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.furro_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.imagenlesbians_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.panties_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.pene_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.porno_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.randomxxx_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.pechos_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.yaoi_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.yaoi2_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.yuri_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.yuri2_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.trapito_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.hentai_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfwloli_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfworgy_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfwfoot_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfwass_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfwbdsm_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfwcum_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfwero_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfwfemdom_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.nsfwglass_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.hentaipdf *<texto>*_
-║⦚ ⇛⃝⃟ ⍚ 🔞 _.hentaisearch *<texto>*_
-║┷━━━━━▧▣▧━━━━━┷
-╰✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶`.trim();
+╭─╼━━══━━━≺🥵≻━━━══━━╾─╮
+┣╮✦➤ _.pack_
+┃┊✦➤ _.pack2_
+┃┊✦➤ _.pack3_
+┃┊✦➤ _.videoxxx_
+┃┊✦➤ _.videolesbixxx_
+┃┊✦➤ _.tetas_
+┃┊✦➤ _.booty_
+┃┊✦➤ _.ecchi_
+┃┊✦➤ _.furro_
+┃┊✦➤ _.imagenlesbians_
+┃┊✦➤ _.panties_
+┃┊✦➤ _.pene_
+┃┊✦➤ _.sexboy3d_
+┃┊✦➤ _.porno_
+┃┊✦➤ _.randomxxx_
+┃┊✦➤ _.pechos_
+┃┊✦➤ _.yaoi_
+┃┊✦➤ _.yaoi2_
+┃┊✦➤ _.yuri_
+┃┊✦➤ _.yuri2_
+┃┊✦➤ _.trapito_
+┃┊✦➤ _.hentai_
+┃┊✦➤ _.nsfwloli_
+┃┊✦➤ _.nsfworgy_
+┃┊✦➤ _.nsfwfoot_
+┃┊✦➤ _.nsfwass_
+┃┊✦➤ _.nsfwbdsm_
+┃┊✦➤ _.nsfwcum_
+┃┊✦➤ _.nsfwero_
+┃┊✦➤ _.nsfwfemdom_
+┃┊✦➤ _.nsfwglass_
+┃┊✦➤ _.hentaipdf *<texto>*_
+┣╯✦➤ _.hentaisearch *<texto>*_
+╰─╼━━══━━━≺🥵≻━━━══━━╾─╯`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
