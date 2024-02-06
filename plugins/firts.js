@@ -26,6 +26,6 @@ await m.reply(`╔╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌•
 *GuardianBot:*
 • wa.me/19145948340
 
-🥳 Disfruta se StivenBot-MD 🎋`) 
+🥳 Disfruta de StivenBot-MD 🎋`) 
 user.pc = new Date * 1
 }
