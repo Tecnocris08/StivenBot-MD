@@ -17,7 +17,7 @@ if (/webp|image|video/g.test(mime)) {
 let img = await q.download?.()
 let out
 stiker = await sticker(img, false, global.packname, global.author)
-await conn.reply(m.chat, `❮♻️ 𝐂𝐑𝐄𝐀𝐍𝐃𝐎 𝐒𝐓𝐈𝐂𝐊𝐄𝐑 ♻️❯:\n\n❲🥪❳ ➜ 𝙌𝙪𝙚𝙧𝙚𝙨 𝙨𝙖𝙣𝙙𝙬𝙞𝙘𝙝? 𝙨𝙚 𝙚𝙨𝙩𝙖 𝙘𝙧𝙚𝙖𝙣𝙙𝙤 𝙨𝙪 𝙨𝙩𝙞𝙘𝙠𝙚𝙧. :3`, m)
+await conn.reply(m.chat, `❮♻️ 𝐂𝐑𝐄𝐀𝐍𝐃𝐎 𝐒𝐓𝐈𝐂𝐊𝐄𝐑 ♻️❯:\n\n❲🎋❳ ➜ 𝘾𝙧𝙚𝙖𝙣𝙙𝙤 𝙚𝙡 𝙨𝙩𝙞𝙘𝙠𝙚𝙧, 𝙚𝙨𝙥𝙚𝙧𝙚 𝙪𝙣𝙤𝙨 𝙨𝙚𝙜𝙪𝙣𝙙𝙤𝙨...`, m)
 
 if (!stiker) {
 if (/webp/g.test(mime)) out = await webp2png(img)
