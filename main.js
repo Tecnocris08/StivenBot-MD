@@ -264,11 +264,11 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) loadDatabase();
   if (update.qr != 0 && update.qr != undefined) {
-    console.log(chalk.yellow('🍀ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
+    console.log(chalk.yellow('👑ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos. 👑'));
   }
  if (connection == 'open') {
 console.log(chalk.yellowBright('\n╭━─━━─━━─━─•  ✯  •─━─━━─━━─━╮\n│✅ 𝙎𝙩𝙞𝙫𝙚𝙣 𝘽𝙤𝙩 𝘾𝙤𝙣𝙚𝙘𝙩𝙖𝙙𝙤 ✅.\n╰━─━━━─━━─━─• ✯ •─━─━━─━━━─━╯\n'))
-conn.fakeReply('573148624888@s.whatsapp.net', '╭❲🌆 ✯𝑺𝑻𝑰𝑽𝑬𝑵•𝑩𝑶𝑻•𝑴𝑫✯ 🌆❳╮\n╎Holaaa, soy un nuevo bot en\n╎este numero.\n╎• • • • • • • • • • • • •\n╎𝙉𝙤𝙢𝙗𝙧𝙚:\n╎𝘚𝘵𝘪𝘷𝘦𝘯𝘉𝘰𝘵-𝘔𝘋\n╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯', '0@s.whatsapp.net', '𝙎𝙩𝙞𝙫𝙚𝙣𝘽𝙤𝙩-𝙈𝘿 │ᶜʳᵉᵃᵈᵒʳ', '0@s.whatsapp.net')
+conn.fakeReply('573236509670@s.whatsapp.net', '╭❲🌆 ✯𝑺𝑻𝑰𝑽𝑬𝑵•𝑩𝑶𝑻•𝑴𝑫✯ 🌆❳╮\n╎Holaaa, soy un nuevo bot en\n╎este numero.\n╎• • • • • • • • • • • • •\n╎𝙉𝙤𝙢𝙗𝙧𝙚:\n╎𝘚𝘵𝘪𝘷𝘦𝘯𝘉𝘰𝘵-𝘔𝘋\n╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯', '0@s.whatsapp.net', '𝙎𝙩𝙞𝙫𝙚𝙣𝘽𝙤𝙩-𝙈𝘿 │ᶜʳᵉᵃᵈᵒʳ', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
