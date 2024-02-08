@@ -11,12 +11,12 @@ import moment from 'moment-timezone'
 global.botnumber = ""
 
 global.owner = [ 
-  ['573148624888', '🍁 Stiven Bot MD Oficial 🍁', true],
+  ['573236509670', '🍁 Stiven Bot MD Oficial 🍁', true],
  ['5493873687620', '🥳 Support Stiven Bot 🥳', true],
 ['19145948340', '🛡️ 𝙂𝙪𝙖𝙧𝙙𝙞𝙖𝙣𝘽𝙤𝙩-𝙈𝘿 🛡️', true],
  ['5491130362550', '👑𝙂𝙪𝙖𝙧𝙙𝙞𝙖𝙣𝘽𝙤𝙩-𝙊𝙛𝙞𝙘𝙞𝙖𝙡 👑', true]]
 
-global.suittag = ['573148624888'];
+global.suittag = ['573236509670'];
 global.prems = ['5493873687620'];
 
 global.packname = '🌌 𝙎𝙩𝙞𝙫𝙚𝙣𝘽𝙤𝙩-𝙈𝘿 🌌';
