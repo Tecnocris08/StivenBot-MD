@@ -49,7 +49,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃
 ┠➥ 𝐏𝐑𝐄𝐅𝐈𝐉𝐎: *${usedPrefix}*
 ┃
-┠➥ 𝐁𝐎𝐓: *𝘚𝘵𝘪𝘷𝘦𝘯𝘉𝘰𝘵-𝘔𝘋*
+┠➥ 𝐁𝐎𝐓: *${wm}*
 ╰─╼━━══━━━≺👑≻━━━══━━╾─╯
 
 ╭─╼━══━≺•𝑅𝐸𝐶𝑈𝑅𝑆𝑂𝑆•≻━══━╾─╮
@@ -548,6 +548,8 @@ ${readMore}
 │❒ ➛ _${usedPrefix}myns_
 │❒ ➛ _${usedPrefix}perfil_
 │❒ ➛ _${usedPrefix}work_
+│❒ ➛ _${usedPrefix}crime_
+│❒ ➛ _${usedPrefix}slut_
 │❒ ➛ _${usedPrefix}minar_
 │❒ ➛ _${usedPrefix}minar2_
 │❒ ➛ _${usedPrefix}buy_
